@@ -1,0 +1,955 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  color: #222222;
+  font-family: 'roboto', sans-serif;
+}
+
+a {
+  color: #106eea;
+}
+
+a:hover {
+  color: #3b8af2;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "poppins", sans-serif;
+}
+
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f6f9fe;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 56px;
+}
+
+.section-title h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.section-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.section-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-title h3 span {
+  color: #106eea;
+}
+
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .section-title p {
+    width: 50%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+
+#topbar{
+  margin-top: 0%;
+  height: 40px;
+  background: #106eea;
+  text-align: left;
+  align-items: center;
+  transition: all 0.5s;
+  
+}
+#topbar .container{
+  height: 40px;
+  
+  
+}
+
+
+#topbar .container .allabout{
+  padding-top: 7px;
+  height: 40px;
+}
+
+#topbar .container .allabout a{
+  
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  transition: 0.3s;
+}
+
+#topbar .container .allabout a:hover{
+  color: rgba(255, 255, 255, 0.829);
+  text-decoration: underline;
+  font-size: 13px;
+  
+}
+
+#topbar .container .socialicons{
+  height: 40px;
+  padding-top: 7px;
+  text-align: right;
+}
+
+#topbar .container .socialicons a{
+  color: rgba(255, 255, 255, 0.829);
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+
+}
+
+#topbar .container .socialicons a:hover{
+  color: #fff;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  top: 40px;
+  padding: 13px 0px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  color: black;
+  z-index: 999;
+}
+
+.navbar .container .navbar-brand{
+  color:black;
+  font-size: 38px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar .container .navbar-brand span{
+  color: #106eea;
+  
+}
+
+.navbar .container .btn-right li a{
+  color: #222222;
+  font-size: 14px;
+  padding: 0px 12px;
+  font-family: "poppins", sans-serif;
+  margin: 0px 3px;
+}
+
+
+
+.navbar .container .btn-right li a:hover{
+  border-bottom: 3px solid #106eea;
+  transition: 0.1s;
+  border-radius: 25px;
+  color: #106eea;
+}
+
+@media (max-width: 991px) {
+  .navbar .container .btn-right li a:hover{
+    border-bottom: 3px solid #106eea;
+    transition: 0.1s;
+    color: #106eea;
+    border-radius: 3px;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+
+#intro{
+  background: url(/TRIVIANS.COM/img/Tvm.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  position: absolute;
+  top: 125px;
+}
+
+@media (max-width: 812px){
+  #intro{
+    height: 80vh;
+  }
+}
+
+
+#intro .container {
+  position: relative;
+  padding-top: 132px;
+  
+}
+
+@media (max-width: 875px){
+  #intro .container{
+    position: relative;
+    padding-top: 50px;
+  }
+}
+
+#intro h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+}
+
+#intro h1 span {
+  color: #106eea;
+}
+
+#intro h2 {
+  color: #555555;
+  margin: 5px 0 30px 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#intro .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 30px;
+  transition: 0.5s;
+  color: #fff;
+  background: #106eea;
+  text-decoration: none;
+}
+
+#intro .btn-get-started:hover {
+  background: #063c81;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+#intro .btn-watch-video {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 15px 10px 40px;
+  transition: 0.5s;
+  margin-left: 25px;
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+  background: #106eea;
+  border-radius: 30px;
+}
+
+#intro .btn-watch-video i {
+  color: #fff;
+  font-size: 32px;
+  position: absolute;
+  left: 4px;
+  top: -2px;
+  transition: 0.3s;
+}
+
+#intro .btn-watch-video:hover {
+  background: #063c81;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.about{
+  margin-top: 102vh;
+}
+
+@media (max-width: 812px){
+  .about{
+    margin-top: 92vh;
+  }
+}
+
+.about a{
+ cursor: zoom-in;
+}
+
+.about img{
+  transition: all 0.4s ease-in-out;
+  border-radius: 1000px;
+}
+
+.about img:hover{
+  transform: scale(1.05);
+  
+}
+
+.about .section-title h1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.about .section-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+.about .section-title h3 span {
+  color: #106eea;
+}
+
+.about p {
+  margin: 15px auto 0 auto;
+  font-weight: 600;
+}
+
+.about h3 {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+}
+
+
+
+/*--------------------------------------------------------------
+# Attractions
+--------------------------------------------------------------*/
+
+.attractions .content-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background-color: #106eea;
+  background-image: none;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.1s ease-in-out;
+  border-radius: 8px;
+}
+
+.attractions .padmanabhaswamy:hover{
+  background-image: url(/TRIVIANS.COM/img/tp/Maintaina.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+.attractions .padmanabhaswamy:hover .icon i, .attractions .padmanabhaswamy:hover h4, .attractions .padmanabhaswamy:hover p{
+  opacity: 0;
+}
+
+.attractions .ksla:hover{
+  background-image: url(/TRIVIANS.COM/img/Pg/kerala-assembly.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+.attractions .ksla:hover .icon i, .attractions .ksla:hover h4, .attractions .ksla:hover p{
+  opacity: 0;
+}
+
+.attractions .kovalam:hover{
+  background-image: url(/TRIVIANS.COM/img/kovalamjpg.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+.attractions .kovalam:hover .icon i, .attractions .kovalam:hover h4, .attractions .kovalam:hover p{
+  opacity: 0;
+}
+
+.attractions .kanakakkunnu:hover{
+  background-image: url(/TRIVIANS.COM/img/Pg/Kanakakunnu-Palace-768x511.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+.attractions .kanakakkunnu:hover .icon i, .attractions .kanakakkunnu:hover h4, .attractions .kanakakkunnu:hover p{
+  opacity: 0;
+}
+
+.attractions .icon {
+  margin-bottom: 15px;
+}
+
+.attractions .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.attractions .content-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.attractions .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.attractions .content-box:hover {
+  background-color: #106eea;
+  color:#fff;
+}
+
+.attractions .content-box:hover .icon i {
+  color: #fff;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Tourism
+--------------------------------------------------------------*/
+
+.tourism{
+  padding: 60px 0;
+}
+
+.tourism .content-box{
+  margin-bottom: 20px;
+  overflow: visible;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+}
+
+.tourism .content-box .box-img{
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  border-radius: 5px;
+}
+
+.tourism .content-box .box-img:hover{
+  transform: scale(1.05);
+  border-radius: 20px;
+}
+
+.tourism .content-box .box-text{
+  padding: 25px 15px;
+}
+
+.tourism .content-box .box-text h4{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+}
+
+.tourism .content-box .box-text p{
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Public Utilities
+--------------------------------------------------------------*/
+
+.pu{
+  padding: 70px 0 60px;
+}
+
+.pu h5{
+  font-size: 15px;
+}
+
+.pu .count-box{
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #f1f6fe;
+  margin-bottom: 47px;
+}
+
+
+
+.pu .count-box i {
+  position: absolute;
+  top: -28px;
+  left: 41%;
+  font-size: 24px;
+  background: #106eea;
+  padding: 12px;
+  color: #fff;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  transition: transform .7s ease-in-out;
+}
+
+@media (max-width: 777px) {
+    .pu .count-box i{
+      left: 44%;
+    }
+}
+
+
+.pu .count-box:hover i{
+  transform: rotate(360deg); 
+}
+
+
+
+.pu .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #062b5b;
+}
+
+
+/*--------------------------------------------------------------
+# District Collectors
+--------------------------------------------------------------*/
+
+.dc{
+  padding: 15px 0;
+  text-align: center;
+}
+
+.dc h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 14px;
+  color: #222222;
+}
+
+.dc h6{
+  color: #106eea;
+}
+
+.dc img{
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  border-radius: 30px;
+}
+
+.dc img:hover{
+  transform: scale(1.15);
+}
+
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Public Utilities Continues
+--------------------------------------------------------------*/
+.pu{
+  padding: 70px 0 60px;
+}
+
+.pu .count-box{
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #f1f6fe;
+  margin-bottom: 47px;
+}
+
+
+
+.pu .count-box i {
+  position: absolute;
+  top: -28px;
+  left: 41%;
+  font-size: 24px;
+  background: #106eea;
+  padding: 12px;
+  color: #fff;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  transition: transform .7s ease-in-out;
+}
+
+@media (max-width: 777px) {
+    .pu .count-box i{
+      left: 44%;
+    }
+}
+
+
+.pu .count-box:hover i{
+  transform: rotate(360deg); 
+}
+
+
+
+.pu .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #062b5b;
+}
+
+
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
+.carousel-img{
+  background-image: url('/TRIVIANS.COM/img/Bg.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-img::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 1024px) {
+  .carousel-img {
+    background-attachment: fixed;
+  }
+}
+
+.carousel img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto 110px;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+}
+
+.carousel-caption{
+  bottom: -26px;
+  letter-spacing: 0.5px;
+}
+
+
+/*--------------------------------------------------------------
+# Photo Gallery
+--------------------------------------------------------------*/
+
+.photo-gallery .img-box{
+  margin-bottom: 30px;
+}
+
+.photo-gallery .section-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Sensus
+--------------------------------------------------------------*/
+.sensus .section-title{
+  padding-bottom: 50px;
+}
+
+.sensus .row{
+  
+  margin-bottom: 0px;
+}
+
+.container .row .sensus-box .heading{
+  height: 110px;
+  margin-top: 30px;
+}
+
+.container .row .sensus-box{
+  margin-bottom: 70px;
+  background-color: #fff;
+  padding: 0 15px;
+  border-radius: 30px;
+}
+
+.sensus-box .progress-box{
+  width: 100%;
+  height: 120px;
+}
+
+.sensus-box .progress-box .progress-background-bar{
+  width: 100%;
+  height: 20px;
+  background-color: #e2eefdaa;
+}
+
+.sensus-box .progress-box .progress-bar{
+  height: 35px;
+  background-color: #3b8af2;
+  position: relative;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sensus h3{
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.sensus span{
+  color: #0d5dc5;
+  text-decoration: underline;
+}
+
+.sensus h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #6e6d6d;
+  text-align: right;
+  padding: 3px 10px 0 0;
+}
+
+.sensus .progress-box p{
+  padding-top: 16px;
+  font-size: 13px;
+}
+
+.sensus .progress-box p:hover{
+  font-size: 16px;
+  
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+
+.faq .container .accordion .accordion-item h2 button{
+  font-size: 13px;
+}
+
+.faq .container .accordion .accordion-item h2 button:hover{
+  color: #3b8af2;
+}
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #fff;
+  padding: 0 0 30px 0;
+  color: #444444;
+  font-size: 14px;
+  background: #f1f6fe;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #106eea;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #106eea;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #106eea;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #3b8af2;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  text-align: center;
+  float: left;
+}
+
+#footer .copyright span:hover{
+  color: #106eea;
+}
+
+#footer .credits {
+  float: right;
+  text-align: center;
+  font-size: 13px;
+  color: #444444;
+}
+
+#footer .credits a{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#footer .credits i{
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+#footer .credits i:hover{
+  color: #fff;
+  background-color: #3b8af2;
+}
+
+@media (max-width: 768px) {
+  #footer .copyright, #footer .credits {
+    float: none;
+    text-align: center;
+    padding: 2px 0;
+  }
+}
+
+
