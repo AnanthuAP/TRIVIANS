@@ -217,7 +217,7 @@ section {
 
 
 #intro{
-  background: url(/TRIVIANS.COM/img/Tvm.jpg);
+  background: url(/TRIVIANS/TRIVIANS.COM/img/Tvm.jpg);
   width: 100%;
   height: 90vh;
   background-size: cover;
@@ -404,7 +404,7 @@ section {
 }
 
 .attractions .padmanabhaswamy:hover{
-  background-image: url(/TRIVIANS.COM/img/tp/Maintaina.jpg);
+  background-image: url(/TRIVIANS/TRIVIANS.COM/img/tp/Maintaina.jpg);
   background-position: center;
   background-size:cover;
 }
@@ -414,7 +414,7 @@ section {
 }
 
 .attractions .ksla:hover{
-  background-image: url(/TRIVIANS.COM/img/Pg/kerala-assembly.jpg);
+  background-image: url(/TRIVIANS/TRIVIANS.COM/img/Pg/kerala-assembly.jpg);
   background-position: center;
   background-size:cover;
 }
@@ -424,7 +424,7 @@ section {
 }
 
 .attractions .kovalam:hover{
-  background-image: url(/TRIVIANS.COM/img/kovalamjpg.jpg);
+  background-image: url(/TRIVIANS/TRIVIANS.COM/img/kovalamjpg.jpg);
   background-position: center;
   background-size:cover;
 }
@@ -434,7 +434,7 @@ section {
 }
 
 .attractions .kanakakkunnu:hover{
-  background-image: url(/TRIVIANS.COM/img/Pg/Kanakakunnu-Palace-768x511.jpg);
+  background-image: url(/TRIVIANS/TRIVIANS.COM/img/Pg/Kanakakunnu-Palace-768x511.jpg);
   background-position: center;
   background-size:cover;
 }
@@ -677,11 +677,11 @@ section {
 
 
 /*--------------------------------------------------------------
-# Testimonials
+# Carousel
 --------------------------------------------------------------*/
 
 .carousel-img{
-  background-image: url('/TRIVIANS.COM/img/Bg.jpg');
+  background-image: url('/TRIVIANS/TRIVIANS.COM/img/Bg.jpg');
   background-position: center;
   background-size: cover;
   width: 100%;
