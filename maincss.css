@@ -623,58 +623,6 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# Public Utilities Continues
---------------------------------------------------------------*/
-.pu{
-  padding: 70px 0 60px;
-}
-
-.pu .count-box{
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: #f1f6fe;
-  margin-bottom: 47px;
-}
-
-
-
-.pu .count-box i {
-  position: absolute;
-  top: -28px;
-  left: 41%;
-  font-size: 24px;
-  background: #106eea;
-  padding: 12px;
-  color: #fff;
-  border-radius: 50px;
-  border: 5px solid #fff;
-  transition: transform .7s ease-in-out;
-}
-
-@media (max-width: 777px) {
-    .pu .count-box i{
-      left: 44%;
-    }
-}
-
-
-.pu .count-box:hover i{
-  transform: rotate(360deg); 
-}
-
-
-
-.pu .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #062b5b;
-}
-
-
 
 /*--------------------------------------------------------------
 # Carousel
