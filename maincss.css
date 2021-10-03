@@ -570,7 +570,9 @@ section {
 
 
 .pu .count-box:hover i{
-  transform: rotate(360deg); 
+  background-color: #fff;
+  color: #106eea;
+  border: 5px solid #106eea; 
 }
 
 
